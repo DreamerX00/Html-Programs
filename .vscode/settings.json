@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Dreamer X",
+            "username": "sqluser",
+            "password": "Akash@455",
+            "database": "akash_db"
+        }
+    ]
+}

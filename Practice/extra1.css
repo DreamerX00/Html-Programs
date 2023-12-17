@@ -1,0 +1,42 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: url(g.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.ok {
+    height: 8rem;
+}
+
+h1 {
+    color: #6a747e;
+    font: bold;
+    text-align: center;
+    filter: blur(0px);
+}
+
+.okf {
+    text-align: center;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 300px;
+    background-color: rgb(196, 79, 79);
+    text-transform: uppercase;
+    margin: -16px 0 0 0;
+}
+
+
+/* .okf:hover {
+    background-color: rgb(71, 151, 216);
+    cursor: pointer;
+    border-width: 4px;
+} */
+
+.line {
+    border: 2px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+}

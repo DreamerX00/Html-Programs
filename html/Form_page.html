@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Admission Form</title>
+
+  <link rel="icon" href="http://cdn.shopify.com/s/files/1/1061/1924/products/Heart_Eyes_Emoji_2_grande.png?v=1571606090">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css\style.css">
+
+    <style>
+    label {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+    <div class="container mt-5">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link " id="home-tab" data-toggle="tab" href="D:\Html Programs\html\try1.html" role="tab" aria-controls="home"
+            aria-selected="true">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="D:\Html Programs\html\profile.html" role="tab" aria-controls="profile"
+            aria-selected="false">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="D:\Html Programs\html\contact.html" role="tab" aria-controls="contact"
+            aria-selected="false">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="D:\Html Programs\html\Form_page.html" role="tab" aria-controls="contact" aria-selected="fase">Form Page</a>
+        </li>
+      </ul>
+    
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade click sec " id="home" role="tabpanel" aria-labelledby="home-tab">
+          <h1>Home Content</h1>
+          <p>This is the home tab content.</p>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <h1>Profile Content</h1>
+          <p>This is the profile tab content.</p>
+        </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <h1>Contact Content</h1>
+          <p>This is the contact tab content.</p>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+
+<div class="container mt-4">
+  <h1 class="text-center mb-4">Student Admission Form</h1>
+  
+  <!-- form starts here -->
+  <form action="#" method="POST">
+    <!-- student name -->
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+
+    <!-- student email -->
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+
+    <!-- student phone -->
+    <div class="form-group">
+      <label for="phone">Phone:</label>
+      <input type="tel" class="form-control" id="phone" name="phone" required>
+    </div>
+
+    <!-- student date of birth -->
+    <div class="form-group">
+      <label for="dob">Date of Birth:</label>
+      <input type="date" class="form-control" id="dob" name="dob" required>
+    </div>
+
+    <!-- student gender -->
+    <div class="form-group">
+      <label for="gender">Gender:</label>
+      <select class="form-control" id="gender" name="gender">
+        <option value="">--Select--</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <!-- submit button -->
+    <button type="submit" class="btn btn-danger btn-lg">Submit</button>
+  </form>
+  <main class="container mt-6">
+    <h1 class="text-center mb-4" style="-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;">Teacher Job Application Form</h1>
+    <form action="#" method="post" class="shadow-lg rounded-lg p-5">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email address">
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" class="form-control" placeholder="Enter your phone number">
+      </div>
+      <div class="form-group">
+        <label for="education">Education Level:</label>
+        <select id="education" name="education" class="form-control">
+          <option value="" selected disabled>Choose your education level</option>
+          <option value="High School Diploma/GED">High School Diploma/GED</option>
+          <option value="Associate's Degree">Associate's Degree</option>
+          <option value="Bachelor's Degree">Bachelor's Degree</option>
+          <option value="Master's Degree">Master's Degree</option>
+          <option value="Doctorate/PhD">Doctorate/PhD</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" class="form-control" rows="5" placeholder="Enter any additional information you'd like to share"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block mt-3">Submit Application</button>
+    </form>
+  </main>
+
+<script src="Js\try1.js"></script>
+</body>
+</html>
